@@ -3,6 +3,7 @@
     "canvas": "^2.8.0",
     "clear": "^0.1.0",
     "cli-progress": "^3.9.0",
-    "jsbarcode": "^3.11.4"
+    "jsbarcode": "^3.11.4",
+    "webcpu": "^0.4.8"
   }
 }
