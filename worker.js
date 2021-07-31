@@ -8,7 +8,7 @@ const { SOF, EOF } = workerData;
 
 parentPort.addListener("message", async (item) => {
     try{
-        const data = Buffer.from(`9 0 obj
+const priceData = Buffer.from(`9 0 obj
 << /Length 42 >>
 stream
 BT
@@ -20,7 +20,36 @@ ET
 endstream
 endobj
 `);
-        const bufferArray = [SOF, data, EOF];
+const barcodeData = Buffer.from(`10 0 obj
+<< /ProcSet [/PDF /ImageB]
+/XObject << /Im1 11 0 R >>
+>>
+endobj
+11 0 obj
+<< /Type /XObject
+/Subtype /Image
+/Width 242
+/Height 142
+/ColorSpace /DeviceGray
+/BitsPerComponent 1
+/Filter /A85
+/Length ${Buffer.from(item.barcode).byteLength}
+>>
+stream
+${item.barcode}
+endstream
+endobj
+12 0 obj
+<< /Length 56 >>
+stream
+q
+100 0 0 59 150 180 cm
+/Im1 Do
+Q
+endstream
+endobj
+`);
+        const bufferArray = [SOF, priceData, barcodeData, EOF];
         await fs.promises.writeFile(path.join(outDir, `${item.UPC}.pdf`), Buffer.concat(bufferArray));
         parentPort.postMessage({
             type: "NEXT",
