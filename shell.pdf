@@ -19,75 +19,22 @@ endobj
 3 0 obj
   <<  /Type /Page
       /Parent 2 0 R
-      /Contents [6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R]
+      /Contents [4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R]
   >>
 endobj
 
 4 0 obj
-<< /Type /Font
-  /Subtype /TrueType
-  /Name F1
-  /BaseFont /Roboto
->>
-endobj
-
-
-5 0 obj
-<< /Type /Font
-  /Subtype /TrueType
-  /Name F2
-  /BaseFont /Roboto-Bold
->>
-endobj
-
-6 0 obj
-<< /Length 53 >>
+<< /Length 47 >>
 stream
 BT
 /F1 14 Tf
-305 65 Td
-1 Tc
-1 Tw
+315 65 Td
 (Unit Price) Tj
 ET
 endstream
 endobj
 
-7 0 obj
-<< /Length 56 >>
-stream
-BT
-/F1 24 Tf
-15 150 Td
-(EDYS SLW CHRNED AMRCAS) Tj
-ET
-endstream
-endobj
-
-8 0 obj
-<< /Length 123 >>
-stream
-BT
-/F1 24 Tf
-75 124 Td
-(FAV TEXAS PCN PIE) Tj
-ET
-endstream
-endobj
-
-9 0 obj
-<< /Length 42 >>
-stream
-BT
-/F2 112 Tf
-25 15 Td
--5 Tc
-(3.99) Tj
-ET
-endstream
-endobj
-
-10 0 obj
+5 0 obj
 << /Length 46 >>
 stream
 BT
@@ -99,7 +46,7 @@ ET
 endstream
 endobj
 
-11 0 obj
+6 0 obj
 << /Length 41 >>
 stream
 BT
@@ -111,13 +58,29 @@ ET
 endstream
 endobj
 
-xref
-0 6
-0000000000 65535 f
+7 0 obj
+<< /Length 56 >>
+stream
+BT
+/F1 24 Tf
+30 150 Td
+(EDYS SLW CHRNED AMRCAS) Tj
+ET
+endstream
+endobj
+
+8 0 obj
+<< /Length 123 >>
+stream
+BT
+/F1 24 Tf
+85 124 Td
+(FAV TEXAS PCN PIE) Tj
+ET
+endstream
+endobj
+
 trailer
-  <<  /Root 1 0 R
-      /Size 9
-  >>
-startxref
-565
+<< /Root 1 0 R >>
+<< /Size 9 >>
 %%EOF
