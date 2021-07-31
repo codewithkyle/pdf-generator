@@ -13,7 +13,6 @@
     "clear": "^0.1.0",
     "cli-progress": "^3.9.0",
     "jsbarcode": "^3.11.4",
-    "jspdf": "^2.3.1",
-    "sqlite3": "^5.0.2"
+    "jspdf": "^2.3.1"
   }
 }
