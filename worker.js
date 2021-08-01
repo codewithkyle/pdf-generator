@@ -32,7 +32,7 @@ endobj
 /Height 142
 /ColorSpace /DeviceGray
 /BitsPerComponent 1
-/Filter /A85
+/Filter /ASCIIHexDecode
 /Length ${Buffer.from(item.barcode).byteLength}
 >>
 stream
@@ -40,7 +40,7 @@ ${item.barcode}
 endstream
 endobj
 12 0 obj
-<< /Length 56 >>
+<< /Length 36 >>
 stream
 q
 100 0 0 59 150 180 cm
